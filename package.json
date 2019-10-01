@@ -22,7 +22,8 @@
     "docs:dev": "concurrently \"npm run components:watch\" \"vuepress dev docs\"",
     "docs:build": "vuepress build docs",
     "prepublishOnly": "npm run lib",
-    "unit": "vue-cli-service test:unit"
+    "unit": "vue-cli-service test:unit",
+    "build": "vue-cli-service build src/index.js"
   },
   "dependencies": {
     "moment": "^2.24.0",
